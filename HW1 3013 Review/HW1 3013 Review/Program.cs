@@ -11,30 +11,17 @@ namespace HW1_3013_Review
         static void Main(string[] args)
         {
             double cogsWholeSale = 79.99;
-
             double gearsWholeSale = 250.00;
-
             double standardMarkUp = 0.15;
-
             double specialMarkUp = 0.125;
-
             double saleTax = 0.89;
-
             double cogPrice, gearPrice, taxAmount;
-
             double total;
-
             int numOfCogs;
-
             int numOfGears;
-
-
-
+        
             Console.WriteLine("Please enter number of cogs: ");
-
             numOfCogs = Convert.ToInt32(Console.ReadLine());
-
-
 
             Console.WriteLine("Please enter number of gears: ");
 
