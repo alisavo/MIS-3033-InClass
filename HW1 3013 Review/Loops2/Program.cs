@@ -10,6 +10,7 @@ namespace Loops2
     {
         static void Main(string[] args)
         {
+
         }
     }
 }

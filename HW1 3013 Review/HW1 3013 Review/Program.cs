@@ -22,41 +22,24 @@ namespace HW1_3013_Review
         
             Console.WriteLine("Please enter number of cogs: ");
             numOfCogs = Convert.ToInt32(Console.ReadLine());
-
             Console.WriteLine("Please enter number of gears: ");
-
             numOfGears = Convert.ToInt32(Console.ReadLine());
 
-
-
             if (numOfCogs >= 10 || numOfGears >= 10 || numOfGears + numOfCogs >= 16)
-
             {
-
                 cogPrice = (numOfCogs * cogsWholeSale) - (numOfCogs * cogsWholeSale * specialMarkUp);
-
                 gearPrice = (numOfGears * gearsWholeSale) - (numOfGears * gearsWholeSale * specialMarkUp);
 
-
-
                 //  Console.WriteLine($"Your Cog Price before tax will be: {cogPrice}");
-
                 //  Console.WriteLine($"Your Gear Price before tax will be: {gearPrice}");
-
             }
 
             else
-
             {
-
                 cogPrice = (numOfCogs * cogsWholeSale) - (numOfCogs * cogsWholeSale * standardMarkUp);
-
                 gearPrice = (numOfGears * gearsWholeSale) - (numOfGears * gearsWholeSale * standardMarkUp);
 
-
-
                 //Console.WriteLine($"Your Cog Price before tax will be: {cogPrice}");
-
                 //Console.WriteLine($"Your Gear Price before tax will be: {gearPrice}");
 
             }
@@ -64,22 +47,13 @@ namespace HW1_3013_Review
 
 
             //Calculate
-
             taxAmount = ((cogPrice + gearPrice) * saleTax);
-
             total = (cogPrice + gearPrice) + taxAmount;
 
-
-
             Console.WriteLine($"Your Cog Price before tax will be: {cogPrice}");
-
             Console.WriteLine($"Your Gear Price before tax will be: {gearPrice}");
-
             Console.WriteLine($"Your Tax amount is (8.9%): {taxAmount}");
-
             Console.WriteLine($"Your total purchase is: {total}");
-
-
 
             Console.ReadKey();
         }
