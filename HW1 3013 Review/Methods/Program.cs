@@ -4,13 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Loops2
+namespace Methods
 {
     class Program
     {
         static void Main(string[] args)
         {
-            int examScore;
 
         }
     }
