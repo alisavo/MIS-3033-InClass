@@ -29,15 +29,20 @@ namespace Methods
             yValue = LineValueForY(inputSlope, xValue, yIntercept);
             Console.WriteLine($"Y= {yValue}");
 
+
+
+
+
+
+
+
+
+
             Console.ReadKey();
-
-            
-
-
-
-
 
         }
 
+
     }
+
 }
