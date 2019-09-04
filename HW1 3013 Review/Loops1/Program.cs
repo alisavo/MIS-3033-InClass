@@ -10,6 +10,7 @@ namespace Loops1
     {
         static void Main(string[] args)
         {
+            //Loops 1
             int examGrades, studentAverage=0;
             int studentScore;
 

@@ -10,6 +10,7 @@ namespace HW1_3013_Review
     {
         static void Main(string[] args)
         {
+            //Conditionals
             double cogsWholeSale = 79.99;
             double gearsWholeSale = 250.00;
             double standardMarkUp = 0.15;
