@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1022019- pokemon participation", "1022019- pokemon participation\1022019- pokemon participation.csproj", "{ADBB7445-4952-4734-ACBC-65B8D411A1FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADBB7445-4952-4734-ACBC-65B8D411A1FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADBB7445-4952-4734-ACBC-65B8D411A1FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADBB7445-4952-4734-ACBC-65B8D411A1FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADBB7445-4952-4734-ACBC-65B8D411A1FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34D645A2-1FEB-4106-8589-5DA8F9B47DF5}
+	EndGlobalSection
+EndGlobal
