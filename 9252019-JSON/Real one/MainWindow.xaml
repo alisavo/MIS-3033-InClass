@@ -1,0 +1,14 @@
+﻿<Window x:Class="Real_one.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Real_one"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="TBquote" HorizontalAlignment="Left" Height="149" Margin="345,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="322"/>
+        <Button x:Name="ButtonQuote" Content="Get Quote" HorizontalAlignment="Left" Margin="402,235,0,0" VerticalAlignment="Top" Width="211" Click="ButtonQuote_Click" Height="48"/>
+
+    </Grid>
+</Window>
