@@ -23,5 +23,7 @@ namespace _1022019__pokemon_participation
     {
         public string name { get; set; }
         public string url { get; set; }
+
+        
     }
 }
